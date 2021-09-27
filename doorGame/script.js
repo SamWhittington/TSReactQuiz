@@ -20,9 +20,10 @@ const isBot = (door) => {
     return true;
   } else {
     return false;
+    }
 }
 
-const isClicked = (parameter) => {
+const isClicked = (door) => {
   if (door.src === closedDoorPath) {
   return false;
 } else {
